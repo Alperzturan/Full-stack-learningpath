@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+.box{
+    height: 250px;
+    width: 250px;
+    border: 5px solid black;
+    text-align: center;
+    font-size: 10em;
+    line-height: 250px; /*textin en ortaya gelmesi için*/
+}
+#box1{
+    background-color: red;
+    transform: translate(500px,100px);/*öteleme, translateX, translateY*/
+}
+#box2{
+    background-color: green;
+    transform: rotateX(60deg);/*o axiste döndürme, rotateY, rotateZ*/
+}   
+#box3{
+    background-color: blue;
+    transform: scale(2,0.5);/*boyut değişimi, scaleX, scaleY*/
+}
+#box4{
+    background-color: yellow;
+    transform: skew(45deg, 15deg);/*eğriltme, skewX, skewY*/
+}
+

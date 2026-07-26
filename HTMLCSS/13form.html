@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.php" method="post">
+        <label for="username">username:</label>
+        <input type="text" id="username" required minlength="6" maxlength="15" placeholder="isim"><br>
+
+        <label for="password">password:</label>
+        <input type="password" id="password"><br>
+
+        <label for="email">email:</label>
+        <input type="email" id="email"><br>
+        
+        <label for="phone">phone:</label>
+        <input type="tel" id="phone" pattern="[0-9]{3} [0-9]{3} [0-9]{4}"><br>
+
+        <label for="bday">birthday:</label>
+        <input type="date" id="bday"><br>
+
+        <label for="quantity">quantity:</label>
+        <input type="number" id="quantity"><br>
+
+        <label for="title">title:</label>
+        <label for="mr">mr:</label>
+        <input type="radio" id="mr" name="title">
+        <label for="ms">ms:</label>
+        <input type="radio" id="ms" name="title">
+        <label for="phd">phd:</label>
+        <input type="radio" id="phd" name="title"><br>
+
+        <label for="payment">payment:</label>
+        <select id="payment">
+            <option value="visa">visa</option>
+            <option value="mastercard">mastercard</option>
+        </select><br>
+
+        <label for="subscribe">subscribe:</label>
+        <input type="checkbox" id="subscribe"><br>
+
+        <label for="comment">comment:</label>
+        <textarea id="comment"></textarea><br>
+
+        <label for="file">file:</label>
+        <input type="file" id="file" accept="image/png"><br>
+
+        <input type="reset"><br>
+        <input type="submit">
+
+    </form>
+</body>
+</html>

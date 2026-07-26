@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+.box{
+    height: 250px;
+    width: 250px;
+    border: 5px solid black;
+    text-align: center;
+    font-size: 10em;
+    line-height: 250px; 
+    background-color: red;
+    /*animation: name duration timing-function delay iteration-count direction fill-mode;*/
+    animation-name: slideleft;
+    animation-duration: 5s;
+}
+
+@keyframes slideleft{
+    from{transform: translate(500px)}
+}/*bunun gibi 7 milyon tane şey var. from yerine
+to ve % kullanılabilir*/

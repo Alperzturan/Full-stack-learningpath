@@ -1,0 +1,20 @@
+.loggedIn{
+  background-color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.loggedOut{
+  background-color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  margin: 0;
+  margin-bottom: 5px;
+}

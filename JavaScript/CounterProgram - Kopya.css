@@ -1,0 +1,22 @@
+#h{
+    font-size: 10em;
+    font-family: Helvetica;
+    display: block;
+    text-align: center;
+}
+.d{
+    display: block;
+    text-align: center;
+    
+}
+.d .b{
+    background-color: hsl(220, 90%, 70%);
+    border-radius: 10px;
+    padding: 25px;
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+}
+.d .b:hover{
+    background-color: hsl(240, 100%, 50%);
+}

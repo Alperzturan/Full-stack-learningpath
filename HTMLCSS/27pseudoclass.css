@@ -1,0 +1,37 @@
+a{
+    font-size: 30px;
+}
+a:link{
+    color: yellow;
+    font-size: 30px;
+}
+a:hover{
+    color: red;
+    font-size: 30px;
+}
+a:active{
+    color: green
+}
+a:visited{
+    color: orange;
+}
+
+li:hover{
+    background-color: yellow;
+}
+li:not(:hover){
+    background-color: grey;
+}
+li:nth-child(2n+1){
+    background-color: red;
+}
+li:nth-child(2n+1):hover{
+    background-color: blue;
+}
+
+#div1 p{
+    display: none;
+}
+#div1:hover p{
+    display: block;
+}

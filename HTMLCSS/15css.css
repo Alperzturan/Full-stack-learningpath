@@ -1,0 +1,31 @@
+
+body{
+    background-color: black;
+}
+h1{
+    color: aqua;
+}
+#p1{
+    color: red;
+}
+#p2{
+    color: green;
+}
+#p3{
+    color: blue;
+}
+#p4{
+    color: gray;
+}
+#p5{
+    color: white;
+}
+#p6{
+    color: cyan;
+}
+.ab{
+    font-size: 30px;
+}
+.ac{
+    font-size: 40px;
+}

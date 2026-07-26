@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#RPS{
+    font-size: 3em;
+}
+.buttons{
+    background-color: hsl(240, 100%, 50%);
+    font-size: 5em;
+    border: 1px solid rgb(50, 50, 50);
+    height: 1.5em;
+    width: 1.5em;;
+    border-radius: 100%;
+    cursor: pointer;
+    margin: 5px;
+}
+.buttons:hover{
+    background-color: hsl(240, 100%, 70%);
+}
+#player{
+    font-size: 2.5em;
+}
+#computer{
+    font-size: 2.5em;
+}
+#result{
+    font-size: 4em;
+}
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+p{
+    font-size: 1.5em;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0;
+}
+#pScore{
+    color: hsl(120, 73%, 65%);
+}
+#cScore{
+    color: hsl(0, 100%, 40%);
+}
+

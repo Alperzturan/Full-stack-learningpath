@@ -1,0 +1,18 @@
+.page{
+    text-align: center;
+}
+.page a{
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 1000;
+}
+.page a.active{
+    background-color: yellow;
+    border-radius: 5px;
+}
+.page a:hover:not(.active){
+    background-color: grey;
+    border-radius: 5px;
+}

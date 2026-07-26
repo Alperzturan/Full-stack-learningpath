@@ -1,0 +1,101 @@
+.container1{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+    /*flex-direction: column; row, row-reverse, 
+    column-reverse */
+
+    /*satır*/
+    /*justify-content: space-around;flex-end, flext-start
+    center, space-between, space-evenly*/
+
+    /*sütun*/
+    align-items: center;
+}
+.box1{
+    height: 150px;
+    width: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+.container1 #box1{
+    background-color: red;
+}
+.container1 #box2{
+    background-color: blue;
+}
+.container1 #box3{
+    background-color: green;
+}
+.container1 #box4{
+    background-color: yellow;
+}
+
+
+
+
+.container2{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+    flex-wrap: wrap; /*nowrap, wrap-reverse*/
+    align-content: flex-start; /*space-evenly*/
+    column-gap: 2em;
+    row-gap: 2em;
+}
+.box2{
+    height: 150px;
+    width: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+.container2 #box1{
+    background-color: red;
+}
+.container2 #box2{
+    background-color: blue;
+}
+.container2 #box3{
+    background-color: green;
+}
+.container2 #box4{
+    background-color: yellow;
+}
+
+
+
+
+
+.container3{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+}
+.box3{
+    height: 150px;
+    width: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+.container3 #box1{
+    background-color: red;
+    align-self: center;
+}
+.container3 #box2{
+    background-color: blue;
+    align-self: end;
+}
+.container3 #box3{
+    background-color: green;
+    order: -1;
+}
+.container3 #box4{
+    background-color: yellow;
+}
+
+
+
+

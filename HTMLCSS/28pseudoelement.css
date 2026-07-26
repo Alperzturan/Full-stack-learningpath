@@ -1,0 +1,24 @@
+h1::first-letter{
+    font-size: 50px;
+    font-style: italic;
+}
+
+p::first-line{
+    background-color: yellow;
+}
+
+#a li::marker{
+    content: "+";
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(66, 216, 66);
+}
+#b::after{
+    content: " :3";
+}
+#c::after{
+    content: " :3";
+}
+#d::after{
+    content: " :3";
+} 

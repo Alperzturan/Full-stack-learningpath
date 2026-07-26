@@ -1,0 +1,9 @@
+.icons{
+    text-align: center;
+}
+.icons .fa-house{
+    color: hsl(240, 100%, 50%);
+}
+a .fa-youtube{
+    color: red;
+}

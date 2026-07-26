@@ -1,0 +1,7 @@
+npm create vite-latest
+.
+.
+.
+serverı tekrar başlatmak için npm run dev
+
+npm install prop-types

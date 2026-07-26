@@ -1,0 +1,52 @@
+#div1{ /*default block*/
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    display: block;
+}
+#span1{ /*default inline*/
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    display: block;
+}
+#div2{
+    margin-top: 50px;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    display: inline;
+}
+#span2{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    display: inline;
+}
+#div3{
+    margin-top: 50px;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+#span3{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+#div4{
+    margin-top: 50px;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    display: block;
+    visibility: hidden;
+}
+#span4{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    display: none;
+}

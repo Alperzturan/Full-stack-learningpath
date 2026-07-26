@@ -1,0 +1,54 @@
+# --- Node.js / JavaScript / TypeScript / React / Express ---
+# Tüm alt klasörlerdeki node_modules bağımlılıklarını engeller
+**/node_modules/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/.pnpm-debug.log*
+
+# Build ve çıktı klasörleri (React, Vite, Next.js vb.)
+**/dist/
+**/build/
+**/.next/
+**/out/
+
+# Çevre değişkenleri (Kesinlikle GitHub'a gitmemeli!)
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+**/.env.*.local
+
+# TypeScript derleme logları ve önbelleği
+**/tsconfig.tsbuildinfo
+
+
+# --- Java ---
+# Derlenmiş Java bytecode dosyaları
+**/*.class
+
+# Log dosyaları
+**/*.log
+
+# Paketleme çıktıları
+**/target/
+**/*.jar
+**/*.war
+**/*.ear
+
+
+# --- IDE ve Editör Ayarları (İsteğe Bağlı)
+# VS Code ayarları
+**/.vscode/
+!**/.vscode/extensions.json
+
+# IntelliJ IDEA / WebStorm ayarları
+**/.idea/
+**/*.iml
+**/*.iws
+**/*.ipr
+
+# İşletim sistemi çöpleri
+**/.DS_Store
+**/Thumbs.db

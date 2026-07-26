@@ -1,0 +1,40 @@
+//////TERMINAL
+tsc --init , tsconfig.json oluşturur
+npm init -y , package.json oluşturur
+mkdir src dist yazarak bu folderları oluştur
+
+
+//////PACKAGE.JSON
+package.json dosyası içinde ""type": "commonjs""i module yap 
+
+
+//////TSCONFIG.JSON
+tsconfig.json dosyasının içinde ""outDir": "./dist"," ve 
+""rootDir": "./src"," satırlarını bulup comment lineı kaldır,
+bu ts'i srcde yazıp js e çevirince o dosyayı dist içine atacak
+
+// Other Outputs
+    // "sourceMap": true,
+    // "declaration": true,
+    // "declarationMap": true,
+    kısmında bunlar ek dosyalar üretir sourcemap gelen hatanın ts dosyasında
+hangi satırda olduğunu söyler
+    declaration kütüphane yazmak için gereklidir detay için araştır
+    declarationMap büüyk projeler için, detaylar için araştır
+    sourcemap dışında yorum satırına alınabilir 
+
+    "moduleDetection": "force", kısmını "moduleDetection": "auto", yap js dosyasının sonuna 
+export{} koymasın
+    "verbatimModuleSyntax": true, false yap
+    "module": "nodenext", ESNext yap
+
+
+
+//////TERMINAL
+"tsc -w" koduya watch modeda js dosyasını da oluştur. bu ts dosyası
+kaydedildiğinde js dosyasını da otomatik olarak günceller
+
+
+//////HTML
+html dosyası oluştur, jsi bağla
+

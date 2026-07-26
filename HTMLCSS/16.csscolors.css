@@ -1,0 +1,15 @@
+body{
+    background-color: gray;
+}
+#p1{
+    color: aqua;
+}
+#p2{
+    color: #fff324;
+}
+#p3{
+    color: rgb(123, 233, 23);
+}
+#p4{
+    color: hsl(95, 41%, 34%);
+}

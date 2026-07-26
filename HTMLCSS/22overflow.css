@@ -1,0 +1,31 @@
+#p1{
+    border: 3px solid;
+    height: 50px;
+    overflow: visible;
+    margin-bottom: 50px;
+}
+#p2{
+    border: 3px solid;
+    height: 50px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+#p3{
+    border: 3px solid;
+    height: 50px;
+    overflow: clip;
+    overflow-clip-margin: 13px;
+    margin-bottom: 50px;
+}
+#p4{
+    border: 3px solid;
+    height: 50px;
+    overflow: scroll;
+    margin-bottom: 50px;
+}
+#p5{
+    border: 3px solid;
+    height: 50px;
+    overflow: auto;
+    margin-bottom: 50px;
+}

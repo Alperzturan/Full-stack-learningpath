@@ -1,0 +1,19 @@
+
+#div{
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 5px;
+  width: 200px;
+  padding: 25px; 
+  margin: 25px;
+  box-shadow: 3px 3px 3px hsl(0, 0%, 60%);
+}
+img{
+  border: 1px solid black;
+  padding: 20px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  border-radius: 1000px;
+}

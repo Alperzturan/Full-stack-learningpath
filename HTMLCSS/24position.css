@@ -1,0 +1,70 @@
+#div1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: relative;
+}
+#div2{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    
+}
+#div3{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: fixed;
+    top: 100px;
+    left: 500px;
+    
+}
+#div4{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+#div5{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: relative;
+    top: 100px;
+    left: 300px;
+}
+#div6{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+    top: 75px;
+    left: 50px;
+}
+#div7{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: sticky;
+    top: 100px;
+    left: 700px;
+    
+}
+#div8{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+#div9{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: static;
+    top: 100px;
+    left: 100px;
+    
+}
+#div10{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
