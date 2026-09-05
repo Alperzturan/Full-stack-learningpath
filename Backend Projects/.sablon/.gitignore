@@ -1,0 +1,31 @@
+# --- Bağımlılıklar ---
+# Hem ana dizindeki hem de alt klasörlerdeki (backend/frontend) tüm node_modules klasörlerini engeller
+**/node_modules/
+
+# --- Paketleme ve Dağıtım ---
+# Frontend build çıktısını engeller
+**/dist/
+**/build/
+
+# --- Veritabanı (SQLite) ---
+# Backend içindeki SQLite veritabanı dosyalarını ve günlüklerini engeller
+**/database.sqlite
+**/*.sqlite
+**/*.sqlite-journal
+
+# --- Hassas Bilgiler (Ortam Değişkenleri) ---
+# Hem kök dizindeki hem de alt dizindeki .env dosyalarını engeller
+**/.env
+**/.env.local
+
+# --- Loglar ve Geçici Dosyalar ---
+# Hata loglarını ve sistem çöplüklerini engeller
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+# --- IDE ve Editör Ayarları ---
+.vscode/
+.idea/

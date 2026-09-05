@@ -1,0 +1,56 @@
+project
+backend
+    npm install express bcryptjs jsonwebtoken cors sqlite3
+
+src
+middleware
+    authMiddleware.js
+routes
+    authRoutes.js
+    todoRoutes.js
+db.js
+server.js
+
+
+package.json scripts
+"dev": "node --watch --env-file=.env --experimental-strip-types --experimental-sqlite ./src/server.js"
+
+
+project
+    npm create vite@latest frontend -- --template react
+
+frontend
+    npm install
+    npm install react-router-dom
+
+npm install @tailwindcss/vite
+    hata alırsan    # 1. Varsa eski kilit dosyasını ve node_modules'ü temizle
+                    rmdir /s /q node_modules
+                    del package-lock.json
+
+                    # 2. NPM önbelleğini temizlemeye zorla
+                    npm cache clean --force
+
+                    # 3. Paketleri sıfırdan kur
+                    npm install
+
+index.css
+@import "tailwindcss";
+
+vite.config.js 
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
+
+export default defineConfig({
+  plugins: [
+    react(),
+    tailwindcss()
+  ],
+  server: {
+    proxy: {
+      '/auth': 'http://localhost:5000',
+      '/todos': 'http://localhost:5000'
+    }
+  }
+})
